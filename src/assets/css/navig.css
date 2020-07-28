@@ -1,0 +1,27 @@
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-size: 0.8em;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+
+.navbar {
+  position: relative;
+}
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -150px !important;
+  /* 50% of your logo width */
+  display: block;
+}
+
+.navbar-nav {
+  padding-top: 70px;
+}
+/*# sourceMappingURL=navig.css.map */

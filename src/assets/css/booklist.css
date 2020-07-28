@@ -1,0 +1,23 @@
+.booklist {
+  padding: 100px 0;
+}
+
+.booklist li {
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.booklist li:nth-child(even) {
+  background: rgba(83, 4, 4, 0.1) 100%;
+}
+
+.booklist li:nth-child(odd) {
+  background: rgba(83, 4, 4, 0.1) 100%;
+}
+
+.booklist li:hover {
+  background: transparent;
+  cursor: pointer;
+}
+/*# sourceMappingURL=booklist.css.map */

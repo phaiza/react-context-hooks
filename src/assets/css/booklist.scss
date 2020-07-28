@@ -1,0 +1,23 @@
+$lightred: rgba(164, 0, 0, 0.2) 0%;
+$darkred: rgba(83, 4, 4, 0.1) 100%;
+
+.booklist {
+  padding: 100px 0;
+  ul {
+  }
+  li {
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 5px;
+  }
+  li:nth-child(even) {
+    background: $darkred;
+  }
+  li:nth-child(odd) {
+    background: $darkred;
+  }
+  li:hover {
+    background: transparent;
+    cursor: pointer;
+  }
+}
